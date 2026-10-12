@@ -1,15 +1,15 @@
 import random
-
-speed = []
-year = []
-
+number = []
 def random_number_gen(start, end):
     return random.randint(start, end)
 
 for i in range(10):
-    speed.append(random_number_gen(50, 100))
+    number.append(random_number_gen(1, 10000000000))
+    print(f"https://www.roblox.com/users/{number[i]}/profile")
 
-for i in range(10):
-    year.append(random_number_gen(2000, 2023))
+
+
+
+
 
 
